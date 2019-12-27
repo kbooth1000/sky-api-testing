@@ -11,6 +11,6 @@ var http = require('http');
 http.createServer(function (req, res) {
   res.writeHead(200, { 'Content-Type': 'text/plain' });
   res.end('Hello World');
-}).listen(1337, "https://infallible-pasteur-6f4260.netlify.com");
+}).listen(1337, "https://infallible-pasteur-6f4260.netlify.com/server");
 
-console.log('Server running at https://infallible-pasteur-6f4260.netlify.com:1337/');
+console.log('Server running at https://infallible-pasteur-6f4260.netlify.com/server:1337/');
